@@ -1,5 +1,5 @@
 # twitch-chatbot-lolrank
-Twitch chat bot with build in ranked data grabber for league of legends
+Twitch chat bot with build in ranked data (mmr data is taken from whatismymmr.com ) grabber for league of legends using the riot provided api
 
 # Server demo
 
