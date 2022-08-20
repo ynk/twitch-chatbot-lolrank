@@ -5,7 +5,7 @@ from mastermind.DOT.RiotAccount import Summoner
 import json
 
 headers = {
-    'User-Agent': "python:com.ynk.DiscordBot:v1.0.0",
+    'User-Agent': "python:com.ynk.git.twitch-chatbot-lolrank:v1.0.0",
 
 }
 class Riot():
@@ -27,7 +27,7 @@ class Riot():
 
     @staticmethod
     def get_riot_mmr_by_username_server(username: str, server: str):
-        url = f"https://euw.whatismymmr.com/api/v1/summoner?name={username}"
+        url = f"https://{server}.whatismymmr.com/api/v1/summoner?name={username}"
         print(url)
         mmr = {}
         try:
