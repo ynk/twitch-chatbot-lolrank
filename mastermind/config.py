@@ -4,8 +4,8 @@ class Bot():
 
 
 class Twitch():
-    token = "oauth:123
-    client_id = "l23456
+    token = "oauth:123"
+    client_id = "l23456"
     prefix = "!"
     command_delay = 45
 
